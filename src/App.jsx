@@ -6,6 +6,7 @@ import { Counter } from './components/Counter';
 import { Cleanup } from './components/Cleanup';
 import { Interval } from './components/Interval';
 import { Api } from './components/Api';
+import { Axios } from './components/Axios';
 
 // Cuando se renderiza?
 // - Cuando cambia un estado (useState)
@@ -47,7 +48,9 @@ function App() {
 
 			{/* {show && <Interval />} */}
 
-			<Api />
+			{/* <Api /> */}
+
+			<Axios />
 
 			<p>
 				Edit <code>src/App.jsx</code> and save to test HMR
